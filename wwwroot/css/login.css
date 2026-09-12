@@ -1,0 +1,15 @@
+﻿.login-page { background: var(--dark); color: white; min-height: 100vh; }
+.login-page .site-header { position: absolute; }
+.login-page .hero { min-height: 100vh; }
+.login-page .hero-image { inset: 0; opacity: .45; }
+.login-page .hero-overlay { background: rgba(12, 27, 42, .75); }
+.login-box { background: rgba(255,255,255,.08); border: 1px solid rgba(255,255,255,.18); border-radius: var(--radius); max-width: 480px; padding: 42px; width: 100%; }
+.login-box h1 { font: 600 38px/1.1 'Space Grotesk', sans-serif; letter-spacing: -.05em; margin-bottom: 12px; }
+.login-box > p { color: #b8c8c7; margin-bottom: 28px; }
+.login-form { display: grid; gap: 18px; }
+.login-form label { color: #c6d4d3; font-size: 13px; }
+.login-form input { background: transparent; border: 0; border-bottom: 1px solid #607377; color: white; display: block; font: 16px 'DM Sans', sans-serif; margin-top: 7px; outline: none; padding: 10px 0; width: 100%; }
+.login-form input:focus { border-color: var(--orange); }
+.login-form .button { justify-self: start; margin-top: 10px; }
+.login-help { color: #ef9873; display: inline-block; font-size: 14px; margin-top: 24px; }
+@media (max-width: 520px) { .login-box { padding: 28px 22px; } }
